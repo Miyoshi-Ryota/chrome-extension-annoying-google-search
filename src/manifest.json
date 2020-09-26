@@ -6,10 +6,11 @@
   "content_scripts": [{
     "matches": ["https://www.google.com/search?*"],
     "js": [
-      "content.js"
+      "redirect-to-block-page.js"
     ]
   }],
   "web_accessible_resources": [
-    "block_page.html"
+    "block-page.html",
+    "block-page.js"
   ]
 }

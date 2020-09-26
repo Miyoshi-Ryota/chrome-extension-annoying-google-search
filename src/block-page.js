@@ -1,5 +1,5 @@
 
-function randomString (length) {
+function randomString(length) {
     let string_pool = "abcdefghijklmnopqrstuvwxyz012345689";
     let result = "";
     for (let i = 0; i < length; i++){

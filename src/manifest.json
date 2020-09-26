@@ -8,5 +8,8 @@
     "js": [
       "content.js"
     ]
-  }]
+  }],
+  "web_accessible_resources": [
+    "block_page.html"
+  ]
 }
